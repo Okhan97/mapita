@@ -1,2 +1,3 @@
-# mapita
-Just a map I'm doing for fun
+## Mapita
+
+This is a map that I'm doing for fun
