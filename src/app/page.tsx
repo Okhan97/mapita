@@ -1,5 +1,12 @@
 import styles from "./page.module.css";
+import Mapita from "./Mapita";
 
-export default function Home() {
-  return <main className={styles.main}>Mapita</main>;
-}
+const Home = () => {
+  return (
+    <main className={styles.main}>
+      <Mapita />
+    </main>
+  );
+};
+
+export default Home;
