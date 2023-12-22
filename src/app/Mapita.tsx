@@ -5,6 +5,9 @@ import { Map } from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./Mapita.css";
 import regionesJSON from "../data/regiones.json";
+import populationJSON from "../data/population.json";
+import { colorByValue } from "./utils";
+import { REGIONS_CODES, REGIONS_INFO } from "./constants";
 
 const MAP_DIV_ID = "mapita";
 
@@ -12,26 +15,38 @@ const Mapita = () => {
   useEffect(() => {
     const map = new Map({
       container: MAP_DIV_ID,
-      style: "mapbox://styles/mapbox/streets-v12",
+      style: "mapbox://styles/mapbox/navigation-night-v1",
       center: [-71, -35],
       zoom: 3.5,
       accessToken: process.env.NEXT_PUBLIC_MAPBOX_TOKEN,
     });
     map.on("load", () => {
-      for (let i = 0; i < regionesJSON.features.length; i++) {
-        const color = i % 2 ? "#0080ff" : "#ff8c00";
-        map.addSource(regionesJSON.features[i].properties.Region, {
+      for (let i = 0; i < REGIONS_CODES.length; i++) {
+        const currentRegionIndex = regionesJSON.features.findIndex(
+          //@ts-ignore string type error
+          (a) => a.properties.Region === REGIONS_INFO[REGIONS_CODES[i]].name
+        );
+        const color = colorByValue({
+          value: parseInt(
+            //@ts-ignore string type error
+            populationJSON[REGIONS_CODES[i]][2023].replace(/\,/g, "")
+          ),
+          max: 2000000,
+          min: 0,
+        });
+        const regionData = regionesJSON.features[currentRegionIndex];
+        map.addSource(regionData.properties.Region, {
           type: "geojson",
           //@ts-ignore string type error
-          data: regionesJSON.features[i],
+          data: regionData,
         }),
           map.addLayer({
-            id: regionesJSON.features[i].properties.Region,
+            id: regionData.properties.Region,
             type: "fill",
-            source: regionesJSON.features[i].properties.Region, // reference the data source
+            source: regionData.properties.Region, // reference the data source
             paint: {
               "fill-color": color, // blue color fill
-              "fill-opacity": 0.5,
+              "fill-opacity": 0.6,
             },
           });
       }

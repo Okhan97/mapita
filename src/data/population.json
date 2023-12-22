@@ -1,5 +1,5 @@
-[
-    {
+{
+    "CH": {
         "2002": "15,691,701",
         "2003": "15,856,977",
         "2004": "16,022,133",
@@ -22,10 +22,10 @@
         "2021": "19,678,363",
         "2022": "19,828,563",
         "2023": "19,960,889",
-        "Reg": 1,
-        "Descripción series": "Población total, INE (número de personas)"
+        "reg": 1,
+        "description": "Población total, INE (número de personas)"
     },
-    {
+    "AP": {
         "2002": "195,426",
         "2003": "197,382",
         "2004": "199,548",
@@ -48,10 +48,10 @@
         "2021": "255,380",
         "2022": "257,722",
         "2023": "259,802",
-        "Reg": 2,
-        "Descripción series": "Región de Arica y Parinacota"
+        "reg": 2,
+        "description": "Región de Arica y Parinacota"
     },
-    {
+    "TA": {
         "2002": "246,265",
         "2003": "251,625",
         "2004": "257,394",
@@ -74,10 +74,10 @@
         "2021": "391,165",
         "2022": "396,697",
         "2023": "401,588",
-        "Reg": 3,
-        "Descripción series": "Región de Tarapacá"
+        "reg": 3,
+        "description": "Región de Tarapacá"
     },
-    {
+    "AN": {
         "2002": "502,741",
         "2003": "510,045",
         "2004": "517,333",
@@ -100,10 +100,10 @@
         "2021": "703,746",
         "2022": "709,637",
         "2023": "714,142",
-        "Reg": 4,
-        "Descripción series": "Región de Antofagasta"
+        "reg": 4,
+        "description": "Región de Antofagasta"
     },
-    {
+    "AT": {
         "2002": "263,924",
         "2003": "266,544",
         "2004": "268,999",
@@ -126,10 +126,10 @@
         "2021": "316,737",
         "2022": "318,004",
         "2023": "319,048",
-        "Reg": 5,
-        "Descripción series": "Región de Atacama"
+        "reg": 5,
+        "description": "Región de Atacama"
     },
-    {
+    "CO": {
         "2002": "628,489",
         "2003": "637,313",
         "2004": "646,251",
@@ -152,10 +152,10 @@
         "2021": "848,079",
         "2022": "858,769",
         "2023": "869,103",
-        "Reg": 6,
-        "Descripción series": "Región de Coquimbo"
+        "reg": 6,
+        "description": "Región de Coquimbo"
     },
-    {
+    "VA": {
         "2002": "1,597,346",
         "2003": "1,615,876",
         "2004": "1,634,045",
@@ -178,10 +178,10 @@
         "2021": "1,979,373",
         "2022": "1,995,538",
         "2023": "2,010,849",
-        "Reg": 7,
-        "Descripción series": "Región de Valparaíso"
+        "reg": 7,
+        "description": "Región de Valparaíso"
     },
-    {
+    "RM": {
         "2002": "6,305,647",
         "2003": "6,379,768",
         "2004": "6,453,961",
@@ -204,10 +204,10 @@
         "2021": "8,242,459",
         "2022": "8,310,984",
         "2023": "8,367,790",
-        "Reg": 8,
-        "Descripción series": "Región Metropolitana"
+        "reg": 8,
+        "description": "Región Metropolitana"
     },
-    {
+    "LI": {
         "2002": "808,184",
         "2003": "817,011",
         "2004": "825,816",
@@ -230,10 +230,10 @@
         "2021": "1,000,959",
         "2022": "1,009,552",
         "2023": "1,017,701",
-        "Reg": 9,
-        "Descripción series": "Región del Libertador General Bernardo O'Higgins"
+        "reg": 9,
+        "description": "Región del Libertador General Bernardo O'Higgins"
     },
-    {
+    "ML": {
         "2002": "943,174",
         "2003": "951,348",
         "2004": "959,581",
@@ -256,10 +256,10 @@
         "2021": "1,143,012",
         "2022": "1,153,043",
         "2023": "1,162,641",
-        "Reg": 10,
-        "Descripción series": "Región del Maule"
+        "reg": 10,
+        "description": "Región del Maule"
     },
-    {
+    "BI": {
         "2002": "1,483,036",
         "2003": "1,493,218",
         "2004": "1,502,937",
@@ -282,10 +282,10 @@
         "2021": "1,670,590",
         "2022": "1,676,269",
         "2023": "1,681,430",
-        "Reg": 11,
-        "Descripción series": "Región del Biobío"
+        "reg": 11,
+        "description": "Región del Biobío"
     },
-    {
+    "NB": {
         "2002": "455,240",
         "2003": "457,588",
         "2004": "460,020",
@@ -308,10 +308,10 @@
         "2021": "514,508",
         "2022": "517,060",
         "2023": "519,437",
-        "Reg": 12,
-        "Descripción series": "Región de Ñuble"
+        "reg": 12,
+        "description": "Región de Ñuble"
     },
-    {
+    "AR": {
         "2002": "904,700",
         "2003": "909,389",
         "2004": "914,374",
@@ -334,10 +334,10 @@
         "2021": "1,019,548",
         "2022": "1,024,029",
         "2023": "1,028,201",
-        "Reg": 13,
-        "Descripción series": "Región de La Araucanía"
+        "reg": 13,
+        "description": "Región de La Araucanía"
     },
-    {
+    "LR": {
         "2002": "369,407",
         "2003": "370,577",
         "2004": "371,657",
@@ -360,10 +360,10 @@
         "2021": "407,818",
         "2022": "409,559",
         "2023": "411,205",
-        "Reg": 14,
-        "Descripción series": "Región de Los Ríos"
+        "reg": 14,
+        "description": "Región de Los Ríos"
     },
-    {
+    "LL": {
         "2002": "742,689",
         "2003": "752,192",
         "2004": "761,414",
@@ -386,10 +386,10 @@
         "2021": "897,303",
         "2022": "902,510",
         "2023": "907,429",
-        "Reg": 15,
-        "Descripción series": "Región de Los Lagos"
+        "reg": 15,
+        "description": "Región de Los Lagos"
     },
-    {
+    "AI": {
         "2002": "93,039",
         "2003": "93,857",
         "2004": "94,695",
@@ -412,10 +412,10 @@
         "2021": "107,737",
         "2022": "108,047",
         "2023": "108,306",
-        "Reg": 16,
-        "Descripción series": "Región de Aysén del General Carlos Ibáñez del Campo"
+        "reg": 16,
+        "description": "Región de Aysén del General Carlos Ibáñez del Campo"
     },
-    {
+    "MA": {
         "2002": "152,394",
         "2003": "153,244",
         "2004": "154,108",
@@ -438,7 +438,7 @@
         "2021": "179,949",
         "2022": "181,143",
         "2023": "182,217",
-        "Reg": 17,
-        "Descripción series": "Región de Magallanes y la Antártica Chilena"
+        "reg": 17,
+        "description": "Región de Magallanes y la Antártica Chilena"
     }
-]
+}
